@@ -10,7 +10,7 @@ This document provides detailed instructions for configuring the Flannel network
 The `flannel.yaml` file can be downloaded using the following command:
 
 ```bash
-wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/flannel/flannel.yaml
+wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/flannel/flannel.yaml
 ```
 
 ## Steps to Apply Flannel Network Add-On
@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/
    Use the following command to download the Flannel configuration file:
 
    ```bash
-   wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/flannel/flannel.yaml
+   wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/flannel/flannel.yaml
    ```
 
 2. **Apply the YAML File:**

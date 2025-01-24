@@ -2,7 +2,7 @@
 
 This guide explains how to set up the Weave Net add-on for Kubernetes networking using the file available at:
 
-[Weave Net YAML File](https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/weave/weave.yaml)
+[Weave Net YAML File](https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/weave/weave.yaml)
 
 ## Default Configuration
 - **Default CIDR**: `10.244.0.0/16`
@@ -15,7 +15,7 @@ Weave Net is a simple and powerful network add-on for Kubernetes that provides a
 
 1. **Download the YAML File**:
    ```bash
-   wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/weave/weave.yaml
+   wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/weave/weave.yaml
    ```
 
 2. **Apply the YAML File**:

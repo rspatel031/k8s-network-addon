@@ -22,7 +22,7 @@ Follow these steps to install the Calico network add-on:
 Retrieve the Calico manifest using the `wget` command:
 
 ```bash
-wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/calico/calico.yaml -O calico.yaml
+wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/calico/calico.yaml -O calico.yaml
 ```
 
 ### 2. Review and Modify the Manifest
@@ -76,19 +76,19 @@ If you wish to use alternative network add-ons, refer to the following configura
 
 ### Calico:
 ```bash
-wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/calico/calico.yaml -O calico.yaml
+wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/calico/calico.yaml -O calico.yaml
 kubectl apply -f calico.yaml
 ```
 
 ### Flannel:
 ```bash
-wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/flannel/flannel.yaml -O flannel.yaml
+wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/flannel/flannel.yaml -O flannel.yaml
 kubectl apply -f flannel.yaml
 ```
 
 ### Weave:
 ```bash
-wget https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/weave/weave.yaml -O weave.yaml
+wget https://raw.githubusercontent.com/rspatel031/k8s-network-addon/refs/heads/main/weave/weave.yaml -O weave.yaml
 kubectl apply -f weave.yaml
 ```
 
