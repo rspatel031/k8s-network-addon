@@ -1,4 +1,6 @@
-# Calico Network Addon Configuration
+# Kubernates Network Addon
+
+### Calico Network Addon Configuration
 
 Calico is a networking and network security solution for Kubernetes clusters. The configuration includes:
 
@@ -8,11 +10,11 @@ Calico is a networking and network security solution for Kubernetes clusters. Th
 
 This setup helps with network policies and secure pod-to-pod communication.
 
-For full configuration, refer to the [Calico YAML](https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/calico/calico.yaml).
+For full configuration, refer to the [Calico](https://github.com/rspatel031/k8s-network-addons/blob/main/calico/).
 
 ---
 
-# Flannel Network Addon Configuration
+### Flannel Network Addon Configuration
 
 Flannel provides a simple network fabric for Kubernetes. The configuration contains:
 
@@ -20,11 +22,11 @@ Flannel provides a simple network fabric for Kubernetes. The configuration conta
 - **ServiceAccount**: Provides necessary RBAC permissions for Flannel.
 - **ClusterRoleBinding**: Ensures Flannel has the required roles and permissions.
 
-For full configuration, refer to the [Flannel YAML](https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/flannel/flannel.yaml).
+For full configuration, refer to the [Flannel](https://github.com/rspatel031/k8s-network-addons/blob/main/flannel/).
 
 ---
 
-# Weave Network Addon Configuration
+### Weave Network Addon Configuration
 
 Weave provides a resilient network solution for Kubernetes clusters. The configuration includes:
 
@@ -32,4 +34,4 @@ Weave provides a resilient network solution for Kubernetes clusters. The configu
 - **ServiceAccount**: RBAC for Weave networking.
 - **ClusterRoleBinding**: Binds the necessary roles to the service account for Weave.
 
-For full configuration, refer to the [Weave YAML](https://raw.githubusercontent.com/rspatel031/k8s-network-addons/refs/heads/main/weave/weave.yaml).
+For full configuration, refer to the [Weave Net](https://github.com/rspatel031/k8s-network-addons/blob/main/weave/).
