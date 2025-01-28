@@ -1,4 +1,4 @@
-# Kubernates Network Addon
+# Kubernetes Network Addon
 
 ### Calico Network Addon Configuration
 
